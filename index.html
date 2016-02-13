@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 
-Hello world
+<div id="recent"></div>
+<div>
+  <h2>Total Questions by Professor</h2>
+  <div id="professor" class="bar"><h3>Dr. Ramachandran</h3><div class="filler"></div></div>
+  <div id="substitute" class="bar"><h3>Dr. Lillethun</h3><div class="filler"></div></div>
+</div>
 <script>
+(function() {
   var getData = function(cb) {
     var dataUrl = 'https://raw.githubusercontent.com/supersam654/cs2200-clicks/gh-pages/data.json'
 
-    var httpRequest = new XMLHttpRequest();
+    var httpRequest = new XMLHttpRequest()
     httpRequest.onreadystatechange = function() {
       if (httpRequest.readyState === 4) {
         if (httpRequest.status === 200) {
@@ -26,7 +32,62 @@ Hello world
     httpRequest.send()
   }
 
+  function sortBy(data, field, shouldReverse) {
+    data.sort(function(a, b) {
+      return a[field] < b[field]
+    })
+
+    if (shouldReverse) {
+      data.reverse()
+    }
+  }
+
+  function makeRow(dataPoint) {
+    return '' +
+      "<div class='row'>" +
+      dataPoint.time + ' | ' + dataPoint.description + ' | ' + dataPoint.responses +
+      "</div>"
+  }
+
+  function showRecentData(data) {
+    sortBy(data, 'date')
+
+    var lastDate = data[0].date
+    console.log(lastDate)
+
+    var dataDiv = document.getElementById('recent')
+    dataDiv.innerHTML = 'Data from ' + lastDate
+
+    for (var i = 0; i < data.length; i++) {
+      var row = data[i]
+      if (row.date !== lastDate) {
+        break
+      }
+      dataDiv.innerHTML += makeRow(row)
+    }
+  }
+
+  function showQuestionCountByProfessor(data) {
+    var professorCount = 0
+    var substituteCount = 0
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].comments === 'RAMA') {
+        substituteCount++
+      } else {
+        professorCount++
+      }
+    }
+
+    var professorPercent = professorCount / data.length * 100
+    var substitutePercent = substituteCount / data.length * 100
+    document.getElementById('professor').children[0].style.width = professorPercent + '%'
+    document.getElementById('substitute').children[0].style.width = substitutePercent + '%'
+  }
+
   getData(function(data) {
     console.log(data)
+    showRecentData(data)
+    showQuestionCountByProfessor(data)
   })
+})()
 </script>
