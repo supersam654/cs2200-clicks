@@ -1,0 +1,15 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+}
+.bar {
+  border: 2px solid black;
+  height: 300px;
+  position: relative;
+}
+
+.filler {
+  background-color: BLUE;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
