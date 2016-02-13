@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+
 Hello world
+<script>
+  var getData = function(cb) {
+    var dataUrl = 'https://raw.githubusercontent.com/supersam654/cs2200-clicks/gh-pages/data.json'
+
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onreadystatechange = function() {
+      if (httpRequest.readyState === 4) {
+        if (httpRequest.status === 200) {
+          var dataPoints = httpRequest.responseText.split('\n')
+          var data = []
+          for (var i = 0; i < dataPoints.length; i++) {
+            var dataPoint = dataPoints[i]
+            if (dataPoint.length === 0) {
+              continue
+            }
+            data.push(JSON.parse(dataPoint))
+          }
+          cb(data)
+        }
+      }
+    }
+    httpRequest.open('GET', dataUrl)
+    httpRequest.send()
+  }
+
+  getData(function(data) {
+    console.log(data)
+  })
+</script>
