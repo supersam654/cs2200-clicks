@@ -17,3 +17,25 @@
 {"date": "02/08/2016", "responses": "206", "description": "Application of dynamic frequency", "comments": "RAMA", "time": "02:27 PM"}
 {"date": "02/08/2016", "responses": "209", "description": "TSRB to CoC raw", "comments": "RAMA", "time": "02:41 PM"}
 {"date": "02/08/2016", "responses": "209", "description": "Execution time comparison", "comments": "RAMA", "time": "02:44 PM"}
+{"date": "02/10/2016", "responses": "164", "description": "Test clicker", "comments": "RAMA", "time": "02:05 PM"}
+{"date": "02/10/2016", "responses": "172", "description": "When's the test", "comments": "RAMA", "time": "02:06 PM"}
+{"date": "02/10/2016", "responses": "179", "description": "Addressing mode", "comments": "RAMA", "time": "02:08 PM"}
+{"date": "02/10/2016", "responses": "190", "description": "Saving and restoring registers", "comments": "RAMA", "time": "02:09 PM"}
+{"date": "02/10/2016", "responses": "190", "description": "Local variables", "comments": "RAMA", "time": "02:10 PM"}
+{"date": "02/10/2016", "responses": "197", "description": "Frame pointer", "comments": "RAMA", "time": "02:10 PM"}
+{"date": "02/10/2016", "responses": "200", "description": "Instruction set", "comments": "RAMA", "time": "02:13 PM"}
+{"date": "02/10/2016", "responses": "194", "description": "Instruction set design", "comments": "RAMA", "time": "02:14 PM"}
+{"date": "02/10/2016", "responses": "201", "description": "Endianness of an architecture", "comments": "RAMA", "time": "02:18 PM"}
+{"date": "02/10/2016", "responses": "196", "description": "Number of clock cycles", "comments": "RAMA", "time": "02:22 PM"}
+{"date": "02/10/2016", "responses": "205", "description": "Rows in FSM", "comments": "RAMA", "time": "02:25 PM"}
+{"date": "02/10/2016", "responses": "202", "description": "Duration of a micro state", "comments": "RAMA", "time": "02:27 PM"}
+{"date": "02/10/2016", "responses": "203", "description": "A trap is", "comments": "RAMA", "time": "02:27 PM"}
+{"date": "02/10/2016", "responses": "204", "description": "Implicit interrupts", "comments": "RAMA", "time": "02:29 PM"}
+{"date": "02/10/2016", "responses": "203", "description": "Handler saves/restores", "comments": "RAMA", "time": "02:35 PM"}
+{"date": "02/10/2016", "responses": "199", "description": "Handler saves processor registers", "comments": "RAMA", "time": "02:37 PM"}
+{"date": "02/10/2016", "responses": "201", "description": "RTI processor next mode", "comments": "RAMA", "time": "02:38 PM"}
+{"date": "02/12/2016", "responses": "130", "description": "Clicker test", "comments": "RAMA", "time": "02:06 PM"}
+{"date": "02/12/2016", "responses": "154", "description": "Wednesday's review", "comments": "RAMA", "time": "02:06 PM"}
+{"date": "02/12/2016", "responses": "194", "description": "Bill 5 stages of pipeline", "comments": "RAMA", "time": "02:18 PM"}
+{"date": "02/12/2016", "responses": "195", "description": "Buffers to sandwiches", "comments": "RAMA", "time": "02:40 PM"}
+{"date": "02/12/2016", "responses": "189", "description": "Macro state of pipeline", "comments": "RAMA", "time": "02:48 PM"}
