@@ -39,3 +39,9 @@
 {"date": "02/12/2016", "responses": "194", "description": "Bill 5 stages of pipeline", "comments": "RAMA", "time": "02:18 PM"}
 {"date": "02/12/2016", "responses": "195", "description": "Buffers to sandwiches", "comments": "RAMA", "time": "02:40 PM"}
 {"date": "02/12/2016", "responses": "189", "description": "Macro state of pipeline", "comments": "RAMA", "time": "02:48 PM"}
+{"date": "02/15/2016", "responses": "192", "description": "Washing dishes", "comments": "None", "time": "02:11 PM"}
+{"date": "02/15/2016", "responses": "205", "description": "Fetch after Pipelining", "comments": "None", "time": "02:23 PM"}
+{"date": "02/15/2016", "responses": "203", "description": "Retry FETCH pipeline", "comments": "None", "time": "02:26 PM"}
+{"date": "02/15/2016", "responses": "206", "description": "Clock cycles of piplined EXEC", "comments": "Most popular answer was wrong", "time": "02:30 PM"}
+{"date": "02/15/2016", "responses": "204", "description": "General case of ID/RR buffer size", "comments": "None", "time": "02:42 PM"}
+{"date": "02/15/2016", "responses": "200", "description": "Stuff in register after ID/RR stage", "comments": "None", "time": "02:48 PM"}
