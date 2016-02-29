@@ -67,3 +67,6 @@
 {"date": "02/24/2016", "responses": "183", "description": "What's preemptive scheduling?", "comments": "RAMA", "time": "02:54 PM"}
 {"date": "02/26/2016", "responses": "171", "description": "Disadvantage of FCFS schedulers", "comments": "None", "time": "02:26 PM"}
 {"date": "02/26/2016", "responses": "152", "description": "When does CPU become idle?", "comments": "None", "time": "02:48 PM"}
+{"date": "02/29/2016", "responses": "181", "description": "Which is called once per process?", "comments": "None", "time": "02:08 PM"}
+{"date": "02/29/2016", "responses": "184", "description": "Which is called once per process (again)?", "comments": "None", "time": "02:13 PM"}
+{"date": "02/29/2016", "responses": "189", "description": "Which schedulers suffer from starvation?", "comments": "None", "time": "02:36 PM"}
