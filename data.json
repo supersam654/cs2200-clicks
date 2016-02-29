@@ -65,3 +65,5 @@
 {"date": "02/24/2016", "responses": "193", "description": "What are threads?", "comments": "RAMA", "time": "02:35 PM"}
 {"date": "02/24/2016", "responses": "189", "description": "What's not in the PCB?", "comments": "RAMA", "time": "02:44 PM"}
 {"date": "02/24/2016", "responses": "183", "description": "What's preemptive scheduling?", "comments": "RAMA", "time": "02:54 PM"}
+{"date": "02/26/2016", "responses": "171", "description": "Disadvantage of FCFS schedulers", "comments": "None", "time": "02:26 PM"}
+{"date": "02/26/2016", "responses": "152", "description": "When does CPU become idle?", "comments": "None", "time": "02:48 PM"}
