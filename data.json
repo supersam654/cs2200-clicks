@@ -70,3 +70,5 @@
 {"date": "02/29/2016", "responses": "181", "description": "Which is called once per process?", "comments": "None", "time": "02:08 PM"}
 {"date": "02/29/2016", "responses": "184", "description": "Which is called once per process (again)?", "comments": "None", "time": "02:13 PM"}
 {"date": "02/29/2016", "responses": "189", "description": "Which schedulers suffer from starvation?", "comments": "None", "time": "02:36 PM"}
+{"date": "03/02/2016", "responses": "196", "description": "What types of fragmentation could paging experience?", "comments": "None", "time": "02:43 PM"}
+{"date": "03/02/2016", "responses": "160", "description": "Page size of 12-bit offsets.", "comments": "None", "time": "02:55 PM"}
