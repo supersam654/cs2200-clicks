@@ -72,3 +72,7 @@
 {"date": "02/29/2016", "responses": "189", "description": "Which schedulers suffer from starvation?", "comments": "None", "time": "02:36 PM"}
 {"date": "03/02/2016", "responses": "196", "description": "What types of fragmentation could paging experience?", "comments": "None", "time": "02:43 PM"}
 {"date": "03/02/2016", "responses": "160", "description": "Page size of 12-bit offsets.", "comments": "None", "time": "02:55 PM"}
+{"date": "03/04/2016", "responses": "108", "description": "Test question", "comments": "RAMA", "time": "02:07 PM"}
+{"date": "03/04/2016", "responses": "181", "description": "Entries in page table by address size", "comments": "RAMA", "time": "02:23 PM"}
+{"date": "03/04/2016", "responses": "182", "description": "Frames in physical memory", "comments": "None", "time": "02:24 PM"}
+{"date": "03/04/2016", "responses": "171", "description": "Page tables in memory?", "comments": "RAMA", "time": "02:24 PM"}
