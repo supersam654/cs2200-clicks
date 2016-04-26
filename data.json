@@ -76,3 +76,30 @@
 {"date": "03/04/2016", "responses": "181", "description": "Entries in page table by address size", "comments": "RAMA", "time": "02:23 PM"}
 {"date": "03/04/2016", "responses": "182", "description": "Frames in physical memory", "comments": "None", "time": "02:24 PM"}
 {"date": "03/04/2016", "responses": "171", "description": "Page tables in memory?", "comments": "RAMA", "time": "02:24 PM"}
+{"date": "03/07/2016", "responses": "160", "description": "Size of offset for 1KB page size", "comments": "None", "time": "02:07 PM"}
+{"date": "03/07/2016", "responses": "187", "description": "How many entries in the page table?", "comments": "None", "time": "02:10 PM"}
+{"date": "03/07/2016", "responses": "187", "description": "Frame table if free list is empty", "comments": "None", "time": "02:15 PM"}
+{"date": "03/07/2016", "responses": "179", "description": "Frame table if free list is empty (again)", "comments": "None", "time": "02:18 PM"}
+{"date": "03/14/2016", "responses": "188", "description": "What needs a write buffer?", "comments": "None", "time": "02:33 PM"}
+{"date": "03/14/2016", "responses": "180", "description": "Best policy with write buffer", "comments": "None", "time": "02:40 PM"}
+{"date": "03/18/2016", "responses": "122", "description": "What miss can't happen on a fully associated cache?", "comments": "None", "time": "02:25 PM"}
+{"date": "03/18/2016", "responses": "119", "description": "What type of cache miss is this?", "comments": "None", "time": "02:34 PM"}
+{"date": "03/18/2016", "responses": "117", "description": "Another cache miss question", "comments": "None", "time": "02:42 PM"}
+{"date": "03/30/2016", "responses": "160", "description": "Basic threading example", "comments": "None", "time": "02:09 PM"}
+{"date": "03/30/2016", "responses": "161", "description": "Basic threading example (again)", "comments": "None", "time": "02:12 PM"}
+{"date": "03/30/2016", "responses": "172", "description": "Basic threading with atomic keyword", "comments": "None", "time": "02:20 PM"}
+{"date": "03/30/2016", "responses": "172", "description": "Which line is atomic?", "comments": "None", "time": "02:25 PM"}
+{"date": "03/30/2016", "responses": "169", "description": "Value of i with mutex", "comments": "None", "time": "02:39 PM"}
+{"date": "04/04/2016", "responses": "156", "description": "Mutual exclusion on SMP", "comments": "None", "time": "02:16 PM"}
+{"date": "04/04/2016", "responses": "160", "description": "SMP Caches on two threads", "comments": "None", "time": "02:23 PM"}
+{"date": "04/04/2016", "responses": "163", "description": "Cache coherence implementations with write back", "comments": "None", "time": "02:41 PM"}
+{"date": "04/04/2016", "responses": "145", "description": "Cache coherence implementations with write back (again)", "comments": "None", "time": "02:45 PM"}
+{"date": "04/06/2016", "responses": "157", "description": "Where does a device controller live?", "comments": "None", "time": "02:09 PM"}
+{"date": "04/06/2016", "responses": "183", "description": "Is a webcam async?", "comments": "None", "time": "02:24 PM"}
+{"date": "04/06/2016", "responses": "184", "description": "Poll or interrupt sync IO?", "comments": "None", "time": "02:30 PM"}
+{"date": "04/06/2016", "responses": "175", "description": "How to save data from webcam?", "comments": "None", "time": "02:48 PM"}
+{"date": "04/25/2016", "responses": "146", "description": "\"End to end\" service layers?", "comments": "None", "time": "02:18 PM"}
+{"date": "04/25/2016", "responses": "140", "description": "End to end service layers? (again)", "comments": "None", "time": "02:21 PM"}
+{"date": "04/25/2016", "responses": "145", "description": "Which protocol is best effort?", "comments": "None", "time": "02:23 PM"}
+{"date": "04/25/2016", "responses": "150", "description": "Best effort (again)?", "comments": "None", "time": "02:25 PM"}
+{"date": "04/25/2016", "responses": "123", "description": "Total bytes for 1 MB", "comments": "None", "time": "02:43 PM"}
